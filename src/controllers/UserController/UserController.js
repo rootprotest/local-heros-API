@@ -80,7 +80,7 @@ const updateAdmin = async (adminId, updateData) => {
 // Function to send a verification SMS using Twilio
 async function sendVerificationSMS(phoneNumber) {
   const accountSid = "AC7293676e0655bebc9648970017499691";
-  const authToken = "4212c70cf0532c43e0aba25c99bdd406";
+  const authToken = "fca7569062b1ad9069c81c1714e98383";
   const client = new twilio(accountSid, authToken);
 
   const verificationCode = generateVerificationCode(); // Implement your own function to generate a verification code
